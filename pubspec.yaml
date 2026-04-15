@@ -1,0 +1,48 @@
+name: skilllens_ai
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.3
+  file_picker: ^10.3.8
+  archive: ^3.3.4
+  xml: ^6.1.0
+  syncfusion_flutter_pdf: ^25.2.7
+  path_provider: ^2.1.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/static/Inter_18pt-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/static/Inter_18pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/static/Inter_18pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/static/Inter_18pt-Black.ttf
+          weight: 900
+        - asset: assets/fonts/static/Inter_18pt-Italic.ttf
+          weight: 200
+          style: italic
+
